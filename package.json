@@ -1,0 +1,15 @@
+{
+  "name": "xss-cross-detection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["xss detection", "xss filter", "input sanitization", "network security","attack", "machine learning", "bayes-classifier","cyber security","xss","xss attack","xss attack prevention", "network attack"],
+  "author": "",
+  "license": "ISC",
+  "description": "This is description",
+  "dependencies": {
+    "bayes-classifier": "^0.0.5"
+  }
+}
