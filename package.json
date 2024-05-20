@@ -6,9 +6,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["xss detection", "xss filter", "input sanitization", "network security","attack", "machine learning", "bayes-classifier","cyber security","xss","xss attack","xss attack prevention", "network attack"],
-  "author": "",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/malehacker/Xss-Cross-Detection.git"
+  },
+  "homepage": "https://github.com/malehacker/Xss-Cross-Detection/blob/main/readme.md",
+  "author": "kundan",
   "license": "ISC",
-  "description": "This is description",
+  "description": "This package facilitates the filtration of input text susceptible to server-side exploitation. It encompasses a model trained on a dataset comprising approximately 6,000 XSS-attack scripts to categorize the input into two predefined classes: vulnerable and immune. Additionally, this package is equipped to handle various input formats, including JSON objects, string arrays, singular strings, and object arrays, thereby enabling the effective sanitization of potentially malicious data residing in databases.",
   "dependencies": {
     "bayes-classifier": "^0.0.5"
   }
